@@ -124,7 +124,7 @@ const educationInfo = {
       schoolName: "Digital Crafts",
       logo: require("./assets/images/digitalcraftsport.png"),
       subHeader: "Full Stack Web DEvelopment",
-      duration: "September 2013 - April 2017",
+      duration: "April 2021 - October 2021",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
