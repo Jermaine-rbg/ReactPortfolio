@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Front End Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Next.js and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/13g-LTAvP5goafS_RvlVLV7LznfBqNsCH/edit", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -112,8 +112,8 @@ const educationInfo = {
     {
       schoolName: "Columbia University",
       logo: require("./assets/images/jtcpro.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      subHeader: "Justice Through Code Full Stack Software Engineering Program",
+      duration: "January 2022 - July 2022",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
