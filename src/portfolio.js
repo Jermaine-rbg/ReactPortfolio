@@ -123,7 +123,7 @@ const educationInfo = {
     {
       schoolName: "Digital Crafts",
       logo: require("./assets/images/digitalcraftsport.png"),
-      subHeader: "Full Stack Web DEvelopment",
+      subHeader: "Full Stack Web Development",
       duration: "April 2021 - October 2021",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -185,8 +185,8 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/Brandnetic logo.jpg"),
+      projectName: "Brandnetic Technologies LLC",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -197,8 +197,8 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/trapcodelogo2.jpg"),
+      projectName: "Trap Code",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -221,7 +221,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Digital Crafts Certificate",
+      title: "Digital Crafts",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/digitalcraftscert.png"),
@@ -241,7 +241,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "LinkedIn Learning",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/linkedInreact.png"),
@@ -254,7 +254,7 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Columbia University",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
@@ -330,7 +330,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "Jermainebaileysoftwareengineer@gmail.com"
 };
 
 // Twitter Section
