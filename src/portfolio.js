@@ -51,11 +51,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Front End / User Interfaces web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Responsive Web Design ( SEO ) Social Engine Optimized"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ Animations / Digital Ocean"
     )
   ],
 
@@ -129,7 +129,7 @@ const educationInfo = {
       descBullets: [
         "Front-End Technologies: HTML, CSS, JavaScript, React.Js",
         "Back-End Technologies: Node, Express, PostgreSQL, AWS",
-        "Relevant Coursework: Git Version Control, MacOS, Agile Development Methodologies"
+        "Relevant Skills: Git Version Control, MacOS, Agile Development Methodologies"
 
     
       ]
