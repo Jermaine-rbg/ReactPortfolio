@@ -53,7 +53,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front End / User Interfaces web applications"
     ),
-    emoji("⚡ Responsive Web Design ( SEO ) Social Engine Optimized"),
+    emoji("⚡ Responsive Web Design ( SEO ) Search Engine Optimized"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ Animations / Digital Ocean"
     )
@@ -114,10 +114,14 @@ const educationInfo = {
       logo: require("./assets/images/jtcpro.png"),
       subHeader: "Justice Through Code Full Stack Software Engineering Program",
       duration: "January 2022 - July 2022",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Justice Through Code (JTC) is a coding intensive and interpersonal skills course that teaches the fundamentals of programming in Python, computer science and Django framework. JTC is a partnership between Columbia University's Center for Justice and the Tamer Center for Social Enterprise and Columbia University's Center for Justice.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Wireframes: Figma, Miro",
+        "Front-End Technologies: Python",
+        "Back-End Technologies: Django",
+        "Relevant Skills: Object Oriented Programming, Agile Development Methdologies, Paired Programming",
+        
+        
       ]
     },
     {
@@ -125,7 +129,7 @@ const educationInfo = {
       logo: require("./assets/images/digitalcraftsport.png"),
       subHeader: "Full Stack Web Development Program",
       duration: "April 2021 - October 2021",
-      desc: "Ranked top 10% in the program. Took courses about Full Stack Software Engineering, Cloud Deployment, Version Control",
+      desc: "Top-rated ccoding bootcamp in Atlanta. Took courses about Full Stack Software Engineering, Cloud Deployment, Version Control",
       descBullets: [
         "Front-End Technologies: HTML, CSS, JavaScript, React.Js",
         "Back-End Technologies: Node, Express, PostgreSQL, AWS",
@@ -153,7 +157,7 @@ const workExperiences = {
       company: "",
       companylogo: require("./assets/images/Brandneticlogo.png"),
       date: "June 2016 – Present",
-      desc: " Develop and execute a proactive social media marketing strategy, managing all phases of digital marketing initiatives from concept through delivery to optimization, improving brand awareness and customer engagement.",
+      desc: "Founder/Freelancer I collaborate with clients to develop and execute a proactive social media marketing strategy, managing all phases of digital marketing initiatives from concept through delivery to optimization, improving brand awareness and customer engagement.",
       descBullets: [
         "Brand Development",
         "Social Media Optimization",
@@ -169,7 +173,8 @@ const workExperiences = {
       desc: "Experienced Landscape Designer with several years of experience working with clients to create and enhance the aesthetics and function of natural outdoor spaces. Bringing forth exceptional design and horticulture skills, with a true ability to understand and strive toward the vision of a client.",
       descBullets: [
         "Project Design",
-        "Project Management"
+        "Project Management",
+        "Landscape Design Software: SmartDraw, AutoCAD"
       ]
     },
     {
@@ -177,7 +182,7 @@ const workExperiences = {
       company: "",
       companylogo: require("./assets/images/grandpapro.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "As Director of Marketing and Business Development my role consist of analyzing brand positioning in the market measure performance of marketing campaigns, monitoring market trends and finding new growth strategies."
     }
   ]
 };
