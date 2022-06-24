@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/Jermaine-rbg",
+  linkedin: "https://www.linkedin.com/in/jermaine-bailey-software-engineer/",
+  gmail: "jermainebaileysoftwareengineer@gmail.com",
 
   
  
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FRONT-END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front End / User Interfaces web applications"
@@ -117,8 +117,8 @@ const educationInfo = {
       desc: "Justice Through Code (JTC) is a coding intensive and interpersonal skills course that teaches the fundamentals of programming in Python, computer science and Django framework. JTC is a partnership between Columbia University's Center for Justice and the Tamer Center for Social Enterprise and Columbia University's Center for Justice.",
       descBullets: [
         "Wireframes: Figma, Miro",
-        "Front-End Technologies: Python",
-        "Back-End Technologies: Django",
+        "Front-End Technologies: Python(Django Framework)",
+        "Back-End Technologies: MySQL Database",
         "Relevant Skills: Object Oriented Programming, Agile Development Methdologies, Paired Programming",
         
         
@@ -129,10 +129,10 @@ const educationInfo = {
       logo: require("./assets/images/digitalcraftsport.png"),
       subHeader: "Full Stack Web Development Program",
       duration: "April 2021 - October 2021",
-      desc: "Top-rated ccoding bootcamp in Atlanta. Took courses about Full Stack Software Engineering, Cloud Deployment, Version Control",
+      desc: "DigitalCrafts is a top-rated coding bootcamp teaching the fundamentals of programming through an intensive classroom experience, transforming beginners into full-stack software engineers with cutting-edge skill sets.",
       descBullets: [
         "Front-End Technologies: HTML, CSS, JavaScript, React.Js",
-        "Back-End Technologies: Node, Express, PostgreSQL, AWS",
+        "Back-End Technologies: Node, Express, PostgreSQL, Netlify Cloud Deployment",
         "Relevant Skills: Git Version Control, MacOS, Agile Development Methodologies"
 
     
@@ -158,12 +158,12 @@ const workExperiences = {
       companylogo: require("./assets/images/Brandneticlogo.png"),
       date: "June 2016 – Present",
       desc: "Founder/Freelancer I collaborate with clients to develop and execute a proactive social media marketing strategy, managing all phases of digital marketing initiatives from concept through delivery to optimization, improving brand awareness and customer engagement.",
-      descBullets: [
-        "Brand Development",
-        "Social Media Optimization",
-        "Search Engine Optimization",
-        "Analytics Reporting"
-      ]
+      // descBullets: [
+      //   "Brand Development",
+      //   "Social Media Optimization",
+      //   "Search Engine Optimization",
+      //   "Analytics Reporting"
+      // ]
     },
     {
       role: "Cultivators Design and Landscape",
@@ -171,19 +171,26 @@ const workExperiences = {
       companylogo: require("./assets/images/cultivatorspro.png"),
       date: "October 2017 – September 2021",
       desc: "Experienced Landscape Designer with several years of experience working with clients to create and enhance the aesthetics and function of natural outdoor spaces. Bringing forth exceptional design and horticulture skills, with a true ability to understand and strive toward the vision of a client.",
-      descBullets: [
-        "Project Design",
-        "Project Management",
-        "Landscape Design Software: SmartDraw, AutoCAD"
-      ]
+      // descBullets: [
+      //   "Project Design",
+      //   "Project Management",
+      //   "Landscape Design Software: SmartDraw, AutoCAD"
+      // ]
     },
     {
       role: "Grandpa Landscaping Management",
       company: "",
       companylogo: require("./assets/images/grandpapro.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "As Director of Marketing and Business Development my role consist of analyzing brand positioning in the market measure performance of marketing campaigns, monitoring market trends and finding new growth strategies."
-    }
+      date: "Feb 2015 – Aug 2017",
+      desc: "As Director of Marketing and Business Development my role consist of analyzing brand positioning in the market by measuring the performance of marketing campaigns, monitoring market trends and finding new growth strategies. Leverage findings to increase social media channels engagement building brand loyalty. ",
+      // descBullets: [
+      //   "New Business Development",
+      //   "Digital Marketing",
+      //   "Brand Development"
+      // ]
+    },
+
+    
   ]
 };
 
@@ -191,20 +198,20 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Recent Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/Brandnetic logo.jpg"),
       projectName: "Brandnetic Technologies LLC",
-      projectDesc: "Brandnetic Technologies is a clean, modern, website built using HTML, CSS, JavaScript and Bootstrap framework",
+      projectDesc: "Brandnetic Technologies simplifiy using digital technology by leveraging it to improve customer experiences in return increasing customer engagment and ROI",
       footerLink: [
         {
           name: "Visit Website",
@@ -216,7 +223,9 @@ const bigProjects = {
     {
       image: require("./assets/images/trapcodelogo2.jpg"),
       projectName: "Trap Code",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit" 
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -229,6 +238,7 @@ const bigProjects = {
       image: require("./assets/images/trapcodelogo2.jpg"),
       projectName: "Trap Code",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+
       footerLink: [
         {
           name: "Visit Website",
@@ -236,6 +246,7 @@ const bigProjects = {
         }
       ]
     },
+  
 
     // {
     //   image: require("./assets/images/Brandnetic logo.jpg"),
@@ -271,17 +282,10 @@ const achievementSection = {
       image: require("./assets/images/digitalcraftscert.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "View Digital Crafts",
+          url: "https://www.digitalcrafts.com/"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+       
       ]
     },
     {
@@ -291,21 +295,21 @@ const achievementSection = {
       image: require("./assets/images/linkedInreact.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View LinkedIn Learning",
+          url: "https://www.linkedin.com/learning/react-software-architecture/learn-software-architecture-with-react?autoplay=true"
         }
       ]
     },
 
     {
       title: "LinkedIn Learning",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/linkedInreact.png"),
+      subtitle: "Certificate of Completion for the React Design Patterns Course ",
+      image: require("./assets/images/linkedInReactDesign.jpeg"),
       footerLink: [
-        {name: "Certification", url: ""},
+        // {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View LinkedIn Learning",
+          url: "https://www.linkedin.com/learning/react-design-patterns/controlled-onboarding-flows?autoplay=true"
         }
       ]
     },
@@ -375,6 +379,7 @@ const talkSection = {
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  image: require("./assets/images/linkedInreact.png"),
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -387,7 +392,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "(678)792-6940",
   email_address: "Jermainebaileysoftwareengineer@gmail.com"
 };
 

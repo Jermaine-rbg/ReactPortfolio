@@ -17,6 +17,8 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
+
+  
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -51,7 +53,9 @@ export default function StartupProject() {
                         
                         className="card-image"
                       ></img>
+                      
                     </div>
+                    
                   ) : null}
                   <div className="project-detail">
                     <h5
@@ -65,10 +69,16 @@ export default function StartupProject() {
                       }
                     >
                       {project.projectDesc},
-                      {/* <ul>
-                         <GetDescBullets descBullets={project.descBullets} isDark={isDark} />
-                      </ul> */}
+                    
                     </p>
+                    <div
+                      className={
+                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                      }
+                    >
+                    
+                    </div>
+                    
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
@@ -78,13 +88,16 @@ export default function StartupProject() {
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"
                               }
+                              
                               onClick={() => openUrlInNewTab(link.url)}
                             >
                               {link.name}
                             </span>
                           );
                         })}
+                        
                       </div>
+                      
                     ) : null}
                   </div>
                 </div>
