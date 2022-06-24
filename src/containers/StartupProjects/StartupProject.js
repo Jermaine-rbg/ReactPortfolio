@@ -48,6 +48,7 @@ export default function StartupProject() {
                       <img
                         src={project.image}
                         alt={project.projectName}
+                        
                         className="card-image"
                       ></img>
                     </div>
@@ -63,7 +64,10 @@ export default function StartupProject() {
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
-                      {project.projectDesc}
+                      {project.projectDesc},
+                      {/* <ul>
+                         <GetDescBullets descBullets={project.descBullets} isDark={isDark} />
+                      </ul> */}
                     </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">

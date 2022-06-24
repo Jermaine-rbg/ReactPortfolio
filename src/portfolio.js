@@ -123,10 +123,16 @@ const educationInfo = {
     {
       schoolName: "Digital Crafts",
       logo: require("./assets/images/digitalcraftsport.png"),
-      subHeader: "Full Stack Web Development",
+      subHeader: "Full Stack Web Development Program",
       duration: "April 2021 - October 2021",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Ranked top 10% in the program. Took courses about Full Stack Software Engineering, Cloud Deployment, Version Control",
+      descBullets: [
+        "Front-End Technologies: HTML, CSS, JavaScript, React.Js",
+        "Back-End Technologies: Node, Express, PostgreSQL, AWS",
+        "Relevant Coursework: Git Version Control, MacOS, Agile Development Methodologies"
+
+    
+      ]
     }
   ]
 };
@@ -143,25 +149,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Brandnetic Technologies LLC",
       company: "",
       companylogo: require("./assets/images/Brandneticlogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "June 2016 – Present",
+      desc: " Develop and execute a proactive social media marketing strategy, managing all phases of digital marketing initiatives from concept through delivery to optimization, improving brand awareness and customer engagement.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Brand Development",
+        "Social Media Optimization",
+        "Search Engine Optimization",
+        "Analytics Reporting"
       ]
     },
     {
-      role: "Front-End Developer",
+      role: "Cultivators Design and Landscape",
       company: "",
       companylogo: require("./assets/images/cultivatorspro.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "October 2017 – September 2021",
+      desc: "Experienced Landscape Designer with several years of experience working with clients to create and enhance the aesthetics and function of natural outdoor spaces. Bringing forth exceptional design and horticulture skills, with a true ability to understand and strive toward the vision of a client.",
+      descBullets: [
+        "Project Design",
+        "Project Management"
+      ]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Grandpa Landscaping Management",
       company: "",
       companylogo: require("./assets/images/grandpapro.png"),
       date: "Jan 2015 – Sep 2015",
@@ -187,11 +199,11 @@ const bigProjects = {
     {
       image: require("./assets/images/Brandnetic logo.jpg"),
       projectName: "Brandnetic Technologies LLC",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Brandnetic Technologies is a clean, modern, website built using HTML, CSS, JavaScript and Bootstrap framework",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.brandnetictechnologies.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -206,7 +218,34 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
-    }
+    },
+
+    {
+      image: require("./assets/images/trapcodelogo2.jpg"),
+      projectName: "Trap Code",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+
+    // {
+    //   image: require("./assets/images/Brandnetic logo.jpg"),
+    //   projectName: "Brandnetic Technologies LLC",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://saayahealth.com/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -223,7 +262,7 @@ const achievementSection = {
     {
       title: "Digital Crafts",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Certificate of completion Full Stack Web Development Program",
       image: require("./assets/images/digitalcraftscert.png"),
       footerLink: [
         {
@@ -243,7 +282,7 @@ const achievementSection = {
     {
       title: "LinkedIn Learning",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Certificate of completion React Software Architecture Course",
       image: require("./assets/images/linkedInreact.png"),
       footerLink: [
         {
@@ -254,9 +293,9 @@ const achievementSection = {
     },
 
     {
-      title: "Columbia University",
+      title: "LinkedIn Learning",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/linkedInreact.png"),
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -264,7 +303,21 @@ const achievementSection = {
           url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
-    }
+    },
+
+    {
+      title: "LinkedIn Learning",
+      subtitle:
+        "Certificate of completion React Software Architecture Course",
+      image: require("./assets/images/linkedInreact.png"),
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
